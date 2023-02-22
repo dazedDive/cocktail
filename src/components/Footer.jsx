@@ -20,7 +20,7 @@ const Footer = () => {
         <div>
             <ul className="drop-shadow-lg ...flex-col fixed top-1/3 left-6">
                 {link.map(item=>{return(
-                    <li key={item.id} className="text-4xl text-lime-300 mb-8 hover:scale-125 duration-100">{item.icon}</li>
+                    <li key={item.id} className="cursor-pointer text-4xl text-lime-300 mb-8 hover:scale-125 duration-100">{item.icon}</li>
                 )})}
             </ul>
         </div>

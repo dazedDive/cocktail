@@ -3,7 +3,8 @@ import lime from '../images/Lime.png';
 import SearchForm from './SearchForm';
 
 const Nav = () => {
-    const [searchMode, setSearchMode] = useState('')
+    const [searchMode, setSearchMode] = useState('');
+    
     const menu = [{id:1,
                 text:"find a cocktail",
                 mode:"s="},
